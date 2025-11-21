@@ -1,15 +1,19 @@
 Filter API Project
 👨‍💻 About Me
+
 I'm an Electronics Engineering graduate who discovered a passion for software development after completing my degree. 
 The software bootcamp further ignited my interest in programming, and I'm currently working as a freelancer while continuing to expand my software engineering skills.
 
 🚀 Getting Started
+
 bash
 git clone https://github.com/StephensonEng95/Filter-Api-Project.git
+
 mvn clean compile
 mvn test
 
 🛠️ Tech Stack
+
 https://img.shields.io/badge/Java-JDK%252017-blue
 https://img.shields.io/badge/Build-Maven-blue
 https://img.shields.io/badge/Testing-JUnit%25205-blue
@@ -66,7 +70,7 @@ text
 src/
 ├── main/java/com/stephenson/filter/filter_library/
 │   ├── / core/ #Filter.java
-│   ├── / propertyfilters/    # Equals, GreaterThan, LessThan, etc.
+│   ├── / propertyfilters/    # EqualFilter, GreaterThan, LessThan, etc.
 │   ├── booleanfilters/    # True, False filters
 │   └── logicalfilters/  # AND, OR, NOT filters
 └── test/java/com/stephenson/filter/filter_library/filtertest/ #Filtertest.java
