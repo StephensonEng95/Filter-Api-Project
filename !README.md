@@ -35,12 +35,13 @@ maintainable solution for resource filtering operations.
 
 🏗️ Architecture & Design Patterns
 
-Core Interface java
+Core Interface java - The contract which all concrete classes have to implement
 
 public interface Filter {
     boolean isMatch(Map<String, String> resource);
     
    String asString();
+   
 }
 
 Filter Types
