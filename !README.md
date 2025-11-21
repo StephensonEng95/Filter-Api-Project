@@ -2,7 +2,7 @@ Filter API Project
 👨‍💻 About Me
 
 I'm an Electronics Engineering graduate who discovered a passion for software development after completing my degree. 
-The software bootcamp further ignited my interest in programming, and I'm currently working as a freelancer while continuing to expand my software engineering skills.
+The software bootcamp further ignited my interest in programming.
 
 🚀 Getting Started
 
