@@ -30,15 +30,19 @@ TDD - Test-Driven Development methodology
 
 🚀 Project Overview
 A flexible and extensible Java Filter API that implements Clean Architecture principles along with Strategy Design Pattern and Composite Design Pattern to provide a clean,
+
 maintainable solution for resource filtering operations.
 
 🏗️ Architecture & Design Patterns
+
 Core Interface
 java
 public interface Filter {
     boolean isMatch(Map<String, String> resource);
+    
     String asString();
 }
+
 Filter Types
 Leaf Filters (Java Records): Equals, GreaterThan, LessThan, PropertyExists, Regex
 
