@@ -9,7 +9,7 @@ The software bootcamp further ignited my interest in programming, and I'm curren
 bash
 git clone https://github.com/StephensonEng95/Filter-Api-Project.git
 
-mvn clean compile
+mvn clean compile first then do 
 mvn test
 
 🛠️ Tech Stack
