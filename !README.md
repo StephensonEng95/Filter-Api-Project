@@ -35,12 +35,12 @@ maintainable solution for resource filtering operations.
 
 🏗️ Architecture & Design Patterns
 
-Core Interface
-java
+Core Interface java
+
 public interface Filter {
     boolean isMatch(Map<String, String> resource);
     
-    String asString();
+   String asString();
 }
 
 Filter Types
